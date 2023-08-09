@@ -15,10 +15,10 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-       
-       DB::table('categories')->insert([
-            'name' => 'Mobile Phone'
-       ]);
+        
+        DB::table('categories')->insert([
+                'name' => 'Mobile Phones'
+        ]);
 
         DB::table('categories')->insert([
             'name' => 'Vehicles'
@@ -29,14 +29,12 @@ class CategorySeeder extends Seeder
         ]);
 
         DB::table('categories')->insert([
-            'name' => 'Gaming Console'
+            'name' => 'Gaming Consoles'
         ]);
-
 
         DB::table('categories')->insert([
-            'name' => 'Television'
+            'name' => 'Television Sets'
         ]);
-
 
     }
 }

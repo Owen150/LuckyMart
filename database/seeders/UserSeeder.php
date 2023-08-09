@@ -17,10 +17,9 @@ class UserSeeder extends Seeder
         $admin = User::factory()->create([
             'username' => 'admin',
             'email' => 'admin@example.com',
-            'password' => bcrypt('admin'),
+            'password' => bcrypt('admin123'),
             'phone_num' => '0722661611'
         ]);
         $admin->assignRole('admin');
-        
     }
 }
